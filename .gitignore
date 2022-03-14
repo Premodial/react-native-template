@@ -1,0 +1,119 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/.temp/
+/coverage
+
+# production
+/.storybook_build/
+/build/
+
+# misc
+.env.local
+.env.development
+.env.development.local
+.env.staging
+.env.staging.local
+.env.test.local
+.env.production
+.env.production.local
+.env.release
+.env.release.local
+.env.storybook
+.env.storybook.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# webstorm
+/.idea/
+/.idea/httpRequests
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/usage.statistics.xml
+
+# VSCode
+.vscode
+
+# OSX
+#
+.DS_Store
+
+# others
+.cache
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+package-lock.json
+/src/**/*.d.ts
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.mobileprovision
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.xcuserstate
+# xcshareddata
+/ios/Pods
+/ios/Podfile.lock
+
+# Android/IntelliJ
+#
+build/
+.idea
+android/app/src/main/assets/fonts
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# react-native-config codegen
+ios/tmp.xcconfig
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+/.vscode
